@@ -53,7 +53,7 @@
       submitBtn.disabled = true;
       submitBtn.textContent = 'Sending...';
       try {
-        const res = await fetch('https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE', {
+        const res = await fetch('https://discord.com/api/webhooks/1428900241112825936/QlUngSlUeaDroAy47zDGw9STCqe4gTZSaFVBLl-UtkbqsBYNpXDFu6JJ3TJjys1wVjBQ', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ content: `📬 New waitlist signup: ${email}` })
